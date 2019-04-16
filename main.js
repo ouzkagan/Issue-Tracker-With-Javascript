@@ -101,7 +101,7 @@ function fetchIssues(){
 
         issueList.innerHTML+='<div class="jumbotron">'+
                             '<div class="welll">'+
-                            '<i><h6>Issue ID: '+ id + '</h6></i>'+
+                            '<i><h6>Issue ID is: '+ id + '</h6></i>'+
                             '<p><span class="badge badge-info">'+ status +'</span></p>'+
                             '<h3>'+desc+'</h3>'+
                             '<p><span class="glyphicon glyphicon-time">'+ severity+'</span></p>'+
