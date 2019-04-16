@@ -83,7 +83,7 @@ function fetchIssues(){
         // </div>
         // `
         
-        
+
         // issueList.innerHTML+=
         // `
         // <div class="jumbotron">
@@ -98,8 +98,9 @@ function fetchIssues(){
         //     </div>
         // </div>
         // `
+
         issueList.innerHTML+='<div class="jumbotron">'+
-                            '<div class="well">'+
+                            '<div class="welll">'+
                             '<i><h6>Issue ID: '+ id + '</h6></i>'+
                             '<p><span class="badge badge-info">'+ status +'</span></p>'+
                             '<h3>'+desc+'</h3>'+
