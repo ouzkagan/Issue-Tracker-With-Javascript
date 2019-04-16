@@ -82,6 +82,21 @@ function fetchIssues(){
         //     </div>
         // </div>
         // `
+        
+        // issueList.innerHTML+=
+        // `
+        // <div class="jumbotron">
+        //     <div class="well">
+        //         <i><h6>Issue ID:${id}</h6></i>
+        //         <p><span class="badge badge-info">${status}</span></p>
+        //         <h3>${desc}</h3>
+        //         <p><span class="glyphicon glyphicon-time"> ${severity}</span></p>
+        //         <p><span class="glyphicon glyphicon-user">${assignedTo}</span></p>
+        //         <a href="#" onclick="setStatusClosed(${id})" class="btn btn-warning">Close</a>
+        //         <a href="#" onclick="deleteIssue(${id})" class="btn btn-danger">Delete</a>
+        //     </div>
+        // </div>
+        // `
         issueList.innerHTML+='<div class="jumbotron">'+
                             '<div class="well">'+
                             '<i><h6>Issue ID: '+ id + '</h6></i>'+
